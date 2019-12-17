@@ -12,7 +12,8 @@ body {
 
 .gallery-parent {
   margin: 0 auto;
-  height: 4rem;
+  height: 60rem;
+  width: 40rem;
 }
 
 .gallery {
@@ -22,5 +23,36 @@ body {
 .pd6-photo {
   height: 20rem;
   position: absolute;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  outline-offset: 1rem;
+}
+
+.panda {
+  top: 13rem;
+  left: 0;
+}
+
+.car {
+  top: 20rem;
+  right: -20rem;
+}
+
+.mustard {
+  top: 4rem;
+  left: 65%;
+}
+
+.pd6-photo:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  outline: 1rem solid #222;
+  z-index: 2;
+}
+
+.gallery:hover .pd6-photo:not(:hover) {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  opacity: 0.3;
 }
 /*# sourceMappingURL=style.css.map */

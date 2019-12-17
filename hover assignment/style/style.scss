@@ -4,19 +4,6 @@ html{
     font-size: 62.5%;
     box-sizing: border-box;
 }
-body{
-    text-align: center;
-}
-.gallery-parent{
-    //text-align: center;
-    margin: 0 auto;
-    //width: 60rem;
-    height: 4rem;
-}
-.gallery{
-    position: relative;
-}
-.pd6-photo{
-    height: 20rem;
-    position: absolute;
-}
+
+@import"./_gallery.scss";
+@import"./_button.scss";
