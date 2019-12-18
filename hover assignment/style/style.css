@@ -55,4 +55,31 @@ body {
           transform: scale(0.5);
   opacity: 0.3;
 }
+
+.button {
+  background-color: #265;
+  width: 15rem;
+  position: absolute;
+  left: 50%;
+  border-radius: 2rem;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.button:active {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+a:-webkit-any-link {
+  color: white;
+}
+
+a:-moz-any-link {
+  color: white;
+}
+
+a:any-link {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
