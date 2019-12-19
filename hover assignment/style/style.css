@@ -64,6 +64,7 @@ body {
   border-radius: 2rem;
   -webkit-transition: .1s;
   transition: .1s;
+  top: 50%;
 }
 
 .button:active {
@@ -81,5 +82,13 @@ a:-moz-any-link {
 
 a:any-link {
   color: white;
+}
+
+.dikdik {
+  text-align: center;
+  height: 25rem;
+  position: absolute;
+  bottom: 10rem;
+  right: 34%;
 }
 /*# sourceMappingURL=style.css.map */
