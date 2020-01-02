@@ -73,15 +73,15 @@ body {
 }
 
 a:-webkit-any-link {
-  color: white;
+  color: black;
 }
 
 a:-moz-any-link {
-  color: white;
+  color: black;
 }
 
 a:any-link {
-  color: white;
+  color: black;
 }
 
 .dikdik {
@@ -90,5 +90,30 @@ a:any-link {
   position: absolute;
   bottom: 10rem;
   right: 34%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.dikdik:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.funny {
+  position: absolute;
+  bottom: 3rem;
+  right: 40%;
+  -webkit-transition: .3s;
+  transition: .3s;
+  font-size: 1.3rem;
+  color: #6F3C89;
+}
+
+.funny:hover {
+  -webkit-transform: skew(-5deg, -5deg);
+          transform: skew(-5deg, -5deg);
+  color: #b0ff00;
 }
 /*# sourceMappingURL=style.css.map */

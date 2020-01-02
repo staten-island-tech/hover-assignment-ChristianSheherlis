@@ -1,0 +1,13 @@
+.funny{
+    position: absolute;
+    bottom: 3rem;
+    right: 40%;
+    transition: .3s;
+    font-size: 1.3rem;
+    color: #6F3C89;
+}
+
+.funny:hover{
+    transform: skew(-5deg, -5deg);
+    color: #b0ff00;
+}

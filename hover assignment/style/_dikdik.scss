@@ -4,4 +4,10 @@
     position: absolute;
     bottom: 10rem;
     right: 34%;
+    filter: grayscale(100%);
+    transition: .3s;
+}
+
+.dikdik:hover{
+    filter: grayscale(0%);
 }
