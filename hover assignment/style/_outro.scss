@@ -1,3 +1,10 @@
-.yt-outro{
-    position: absolute;
+.ytoutro{
+    transition: .4s;
+    text-decoration: none;
+    width: 19rem;
 }
+
+.ytoutro:hover{
+    transform: rotate(360deg);
+}
+
