@@ -69,6 +69,11 @@ html {
           transform: scale(0.7);
 }
 
+.button:hover {
+  -webkit-transform: translateY(-2rem);
+          transform: translateY(-2rem);
+}
+
 a:-webkit-any-link {
   color: black;
 }

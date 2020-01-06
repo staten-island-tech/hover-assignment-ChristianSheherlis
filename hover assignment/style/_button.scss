@@ -13,6 +13,10 @@
     transform: scale(.7);
 }
 
+.button:hover{
+    transform: translateY(-2rem);
+}
+
 a:any-link{
     color: black;
 }
