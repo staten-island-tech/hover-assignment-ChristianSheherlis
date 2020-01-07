@@ -124,6 +124,7 @@ a:any-link {
   transition: .4s;
   text-decoration: none;
   width: 19rem;
+  background-color: red;
 }
 
 .ytoutro:hover {
