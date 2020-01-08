@@ -131,4 +131,55 @@ a:any-link {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
+
+.animation {
+  position: absolute;
+  -webkit-animation-name: test;
+          animation-name: test;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  color: white;
+}
+
+@-webkit-keyframes test {
+  0% {
+    left: 0;
+    bottom: 10rem;
+    background-color: red;
+  }
+  50% {
+    bottom: 20rem;
+    background-color: yellow;
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    left: 10rem;
+    bottom: 10rem;
+    background-color: purple;
+  }
+}
+
+@keyframes test {
+  0% {
+    left: 0;
+    bottom: 10rem;
+    background-color: red;
+  }
+  50% {
+    bottom: 20rem;
+    background-color: yellow;
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    left: 10rem;
+    bottom: 10rem;
+    background-color: purple;
+  }
+}
 /*# sourceMappingURL=style.css.map */
