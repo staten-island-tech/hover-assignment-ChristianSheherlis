@@ -152,6 +152,7 @@ a:any-link {
   50% {
     bottom: 20rem;
     background-color: yellow;
+    color: black;
   }
   75% {
     background-color: blue;
@@ -172,6 +173,7 @@ a:any-link {
   50% {
     bottom: 20rem;
     background-color: yellow;
+    color: black;
   }
   75% {
     background-color: blue;
